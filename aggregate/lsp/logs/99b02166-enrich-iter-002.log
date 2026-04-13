@@ -1,0 +1,16 @@
+[2026-04-13T11:09:52Z] === ENRICH ITERATION 2 START | repo=paritytech/nohash-hasher sha=99b02166 ===
+[2026-04-13T11:09:52Z] [iter=2] PHASE START: enrich repo=paritytech/nohash-hasher sha=99b02166 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/99b02166-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/99b021664e9d7fd3e1f7ffb8633a137e21e12149.nq.gz
+[2026-04-13T11:09:52Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-04-13T11:09:52Z] [iter=2] AST store loaded triples=14094 load_secs=0 mem_mb=103 MB
+[2026-04-13T11:09:52Z] [iter=2] Step 2: Finding LSP targets mem_mb=103 MB
+[2026-04-13T11:09:52Z] [iter=2] LSP targets found call_sites=89 imports=0 extends=0 implements=2 secs=0
+[2026-04-13T11:09:52Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=103 MB
+[2026-04-13T11:09:52Z] [iter=2] Position index built positions=901 nodes_with_types=1048 secs=0 mem_mb=103 MB
+[2026-04-13T11:09:52Z] [iter=2] Step 3: Starting LSP resolution mem_mb=103 MB already_completed_types=[] already_completed_files=0
+[2026-04-13T11:09:52Z] [iter=2] Resolving target type target_type=call_site count=89
+[2026-04-13T11:10:01Z] [iter=2] Target type resolved target_type=call_site resolved=22 errors=58 secs=9 mem_mb=103 MB
+[2026-04-13T11:10:01Z] [iter=2] Resolving target type target_type=implements_clause count=2
+[2026-04-13T11:10:05Z] [iter=2] Target type resolved target_type=implements_clause resolved=2 errors=0 secs=5 mem_mb=103 MB
+[2026-04-13T11:10:10Z] [iter=2] Step 5: Writing final enrichment file triples=810
+[2026-04-13T11:10:10Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/99b021664e9d7fd3e1f7ffb8633a137e21e12149.nq.gz size_kb=9
+[2026-04-13T11:10:10Z] [iter=2] PHASE END: enrich elapsed_s=18 elapsed_min=0.3 total_triples=810
