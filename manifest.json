@@ -1,0 +1,27 @@
+{
+  "manifest_version": "1.0",
+  "org": "paritytech",
+  "repo": "nohash-hasher",
+  "versions": [
+    {
+      "commit": "99b021664e9d7fd3e1f7ffb8633a137e21e12149",
+      "parsed_at": "2026-04-13T10:50:35.188198+00:00",
+      "tag": "v0.2.0",
+      "filetree": "filetree/99b021664e9d7fd3e1f7ffb8633a137e21e12149.nq.gz",
+      "blobs": [
+        "blob/5c9ac80a8fafb051d7f4cfc8568bc0c25175c101.nq.gz",
+        "blob/693699042b1a8ccf697636d3cd34b200f3a8278b.nq.gz",
+        "blob/d645695673349e3947e8e5ae42332d0ac3164cd7.nq.gz",
+        "blob/b2560d6525ae4bba546fce6104d14e182a30da33.nq.gz",
+        "blob/50e024ef7de0596ccc0147902ab8a43b3ceed2b1.nq.gz",
+        "blob/940c8e733f007b3e6f6dc2e83d9eb9ae42108080.nq.gz",
+        "blob/d8322d9f2a586b7a69ff72bda3c424b53630861f.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
